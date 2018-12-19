@@ -33,7 +33,7 @@ func getJSON(url string, target interface{}) error {
 
 func main() {
 	Projects := Projects{}
-	err := getJSON("https://kiramex-pj.backlog.com/api/v2/projects?apiKey=uiyatsu", &Projects)
+	err := getJSON("https://xxx.backlog.com/api/v2/projects?apiKey=uiyatsu", &Projects)
 	if err != nil {
 		fmt.Println(err.Error())
 	}
