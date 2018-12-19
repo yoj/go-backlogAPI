@@ -20,8 +20,6 @@ type Projects []struct {
 	DisplayOrder                      int    `json:"displayOrder"`
 }
 
-//type Projects []*Project
-
 // getJSON return array
 func getJSON(url string, target interface{}) error {
 	r, err := http.Get(url)
